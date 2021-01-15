@@ -305,12 +305,6 @@ body {
 }
 
 @media (min-width: 992px) {
-  .link__store {
-    display: inline-block;
-    text-align: center;
-  }
-}
-@media (min-width: 992px) {
   .stores {
     align-items: center;
     display: flex;
@@ -322,7 +316,42 @@ body {
     margin-right: 5px;
     text-align: center;
   }
+
+  .section__stop {
+    padding-left: 6rem;
+    padding-right: 3rem;
+  }
 }
+.heading__stop {
+  font-weight: 100;
+}
+
+.section__stop {
+  background-image: url("../img/bg-cta.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.container__stop {
+  padding-left: 2.5rem;
+  padding-bottom: 9rem;
+  padding-top: 9rem;
+  position: relative;
+  z-index: 1;
+}
+
 .footer {
   background-color: #343a40;
   color: #6c757d;
@@ -338,6 +367,24 @@ body {
 }
 .footer__links a:hover {
   color: #fff;
+}
+
+.button__main {
+  background-color: inherit;
+  border: 1px solid #fff;
+  border-radius: 250px;
+  color: #fff;
+  font-size: 0.6rem;
+  line-height: 2rem;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: border 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.button__main:hover {
+  background-color: #fdcc52;
+  border: 1px solid #fdcc52;
 }
 
 .container {

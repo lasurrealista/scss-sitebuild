@@ -1,0 +1,19 @@
+@use 'colors' as *;
+
+.button__main {
+    background-color: inherit;
+    border: 1px solid $primary-color;
+    border-radius: 250px;
+    color: $primary-color;
+    font-size: 0.6rem;
+    line-height: 2rem;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.button__main:hover {
+    background-color: #fdcc52;
+    border: 1px solid #fdcc52;
+}

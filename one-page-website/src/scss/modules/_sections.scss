@@ -11,7 +11,7 @@
 .section__social,
 .section__discover {
     align-items: center;
-    background-color: $section-background-color;
+    background-color: $secondary-color;
     display: flex;
     justify-content: center;
     padding: 4.5rem 3rem;
@@ -87,14 +87,6 @@
     height: 40px;
 }
 
-
-@media (min-width: 992px) {
-    .link__store {
-        display: inline-block;
-        text-align: center;
-    }
-}
-
 @media (min-width: 992px) {
 
     .stores {
@@ -108,4 +100,42 @@
         margin-right: 5px;
         text-align: center;
     }
+
+    .section__stop {
+        padding-left: 6rem;
+        padding-right: 3rem;
+    }
+
 }
+
+.heading__stop {
+    font-weight: 100;
+}
+
+.section__stop {
+    background-image: url('../img/bg-cta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $primary-color;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.container__stop {
+    padding-left: 2.5rem;
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+    position: relative;
+    z-index: 1;
+}
+
+

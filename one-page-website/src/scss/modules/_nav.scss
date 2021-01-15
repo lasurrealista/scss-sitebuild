@@ -42,7 +42,7 @@
         text-transform: uppercase;
 
         &:hover {
-            color: $nav-link-hover-color;
+            color: $primary-color;
         }
     }
 
@@ -88,7 +88,7 @@
     &__brand {
         align-items: center;
         box-sizing: border-box;
-        color: $section-background-color;
+        color: $secondary-color;
         display: flex;
         font-size: 1rem;
         padding: 1rem;
@@ -98,7 +98,7 @@
     }
 
     &__brand:hover {
-        color: $nav-link-hover-color;
+        color: $primary-color;
         text-decoration: none;
     }
 
@@ -124,5 +124,5 @@
 }
 
 .sticky .nav__link:hover {
-    color: $section-background-color;
+    color: $secondary-color;
 }
