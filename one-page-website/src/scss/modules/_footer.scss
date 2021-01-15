@@ -3,7 +3,7 @@
 .footer {
     background-color: $footer-background-color;
     color: $footer-text-color;
-    padding: 1rem 0;
+    padding: 1.5rem;
 
     a {
         color: $footer-text-color;
@@ -12,6 +12,11 @@
 
     &__text, 
     &__links {
+        margin: 0.5rem 0;
         text-align: center;
+    }
+
+    &__links a:hover {
+        color: $nav-link-hover-color;
     }
 }
