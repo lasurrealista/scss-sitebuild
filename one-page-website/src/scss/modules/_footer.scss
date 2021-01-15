@@ -3,9 +3,15 @@
 .footer {
     background-color: $footer-background-color;
     color: $footer-text-color;
+    padding: 1rem 0;
 
     a {
         color: $footer-text-color;
         text-decoration: none;
+    }
+
+    &__text, 
+    &__links {
+        text-align: center;
     }
 }

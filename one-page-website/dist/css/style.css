@@ -267,10 +267,14 @@ body {
 .footer {
   background-color: #343a40;
   color: #6c757d;
+  padding: 1rem 0;
 }
 .footer a {
   color: #6c757d;
   text-decoration: none;
+}
+.footer__text, .footer__links {
+  text-align: center;
 }
 
 .container {
