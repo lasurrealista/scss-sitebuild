@@ -284,6 +284,45 @@ body {
   white-space: nowrap;
 }
 
+.heading__discover,
+.p__discover {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.stores {
+  margin-top: 1rem;
+}
+
+.link__store {
+  display: block;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.link__store img {
+  height: 40px;
+}
+
+@media (min-width: 992px) {
+  .link__store {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .stores {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .link__store {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+  }
+}
 .footer {
   background-color: #343a40;
   color: #6c757d;
