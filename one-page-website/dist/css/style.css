@@ -207,7 +207,61 @@ body {
 
 .section__social,
 .section__discover {
+  align-items: center;
   background-color: #fdcc52;
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem 3rem;
+}
+
+.fa-fb-bg {
+  color: #3b5998;
+  opacity: 0.9;
+}
+
+.fa-tw-bg {
+  color: #00acee;
+  opacity: 0.9;
+}
+
+.fa-gp-bg {
+  color: #db4a39;
+  opacity: 0.9;
+}
+
+.fa-fb-bg:hover {
+  color: #3b5998;
+  opacity: 1;
+}
+
+.fa-tw-bg:hover {
+  color: #00acee;
+  opacity: 1;
+}
+
+.fa-gp-bg:hover {
+  color: #db4a39;
+  opacity: 1;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-google-plus-g {
+  color: #ffffff;
+}
+
+.heart {
+  color: transparent;
+  text-shadow: 0 0 0 red;
+}
+
+.icon__social {
+  text-decoration: none;
+}
+
+.heading__love {
+  text-align: center;
+  white-space: nowrap;
 }
 
 .footer {
@@ -225,24 +279,24 @@ body {
   flex: 0 1 auto;
   flex-flow: row wrap;
   margin: 0 auto;
-  padding: 5px;
+  padding: 0px;
   position: relative;
   max-width: 1920px;
 }
 @media only screen and (min-width: 992px) {
   .container {
-    padding: 6px;
+    padding: 0px;
   }
 }
 
 .container > [class^=column] {
   box-sizing: border-box;
-  padding: 10px;
+  padding: 0px;
   position: relative;
 }
 @media only screen and (min-width: 992px) {
   .container > [class^=column] {
-    padding: 12px;
+    padding: 0px;
   }
 }
 

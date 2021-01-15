@@ -9,8 +9,8 @@ $config: (
         classname: container,
         maxWidth: 1920px,
         padding: (
-            mobile: 5px,
-            custom: 6px,
+            mobile: 0px,
+            custom: 0px,
         )
     ),
     column: (
@@ -20,8 +20,8 @@ $config: (
             custom: custom, 
         ),
         padding: (
-            mobile: 10px,
-            custom: 12px,
+            mobile: 0px,
+            custom: 0px,
         )
     ),
 );
