@@ -1,8 +1,0 @@
-.doubleMobilImg {
-        width: 432px;
-        height: 868px;
-        background-image: url("/assets/img/demo-screen-1.jpg"), url("/assets/img/phone.png");
-        background-size: 90%, cover;
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, center ;
-     }

@@ -166,6 +166,7 @@ body {
   background-color: #fff;
   border: 1px solid;
   border-color: #777676;
+  border-radius: 5px;
   box-sizing: border-box;
   left: 50%;
   margin: 1% auto;
@@ -366,7 +367,7 @@ body {
   text-align: center;
 }
 .footer__links a:hover {
-  color: #fff;
+  color: #fdcc52;
 }
 
 .button__main {
