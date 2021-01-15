@@ -1,0 +1,27 @@
+$config: (
+    grid: (
+        size: 12,
+        breakpoint: (
+            custom: 992px,
+            )
+        ),
+    container: (
+        classname: container,
+        maxWidth: 1280px,
+        padding: (
+            mobile: 5px,
+            custom: 6px,
+        )
+    ),
+    column: (
+        classname: column,
+        postfix: (
+            mobile: mobile,
+            custom: custom, 
+        ),
+        padding: (
+            mobile: 10px,
+            custom: 12px,
+        )
+    ),
+);
