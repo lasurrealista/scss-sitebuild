@@ -1,0 +1,128 @@
+@use 'colors' as *;
+
+.nav {
+    background: url('../img/bg-pattern.png'), $section-new-color1;
+    background: url('../img/bg-pattern.png'), linear-gradient(to right, $section-new-color2, $section-new-color1);
+    display: flex;
+
+    &__container {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+
+    }
+
+    &__list {
+        display: none;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+
+        @media screen and (min-width: 992px) {
+            display: flex;
+            flex-direction: row;
+            float: right;
+            width: auto;
+        }
+    }
+
+    &__item {
+        text-align: center;
+    }
+
+    &__link {
+        box-sizing: border-box;
+        color: $nav-line-color;
+        display: block;
+        font-size: 0.8rem;
+        padding: 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $nav-link-hover-color;
+        }
+    }
+
+    &__hamburger {
+        &-checkbox {
+            display: none;
+
+            &:checked+.nav__list {
+                display: flex;
+            }
+        }
+
+        &-checkbox {
+            display: none;
+          }
+
+        &-checkbox:checked + .nav__list {
+            display: flex;
+          }
+
+        &-label {
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            flex-wrap: wrap;
+            height: 1.5rem;
+            padding: 1rem;
+            width: 1.5rem;
+
+            @media screen and (min-width: 992px) {
+                display: none;
+            }
+        }
+
+        &-line {
+            background: $nav-line-color;
+            display: block;
+            height: 2px;
+            width: 1.5rem;
+        }
+    }
+
+    &__brand {
+        align-items: center;
+        box-sizing: border-box;
+        color: $section-background-color;
+        display: flex;
+        font-size: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        white-space: nowrap;
+        width: 10rem;
+    }
+
+    &__brand:hover {
+        color: $nav-link-hover-color;
+        text-decoration: none;
+    }
+
+    &__hamburger-line {
+        color: $nav-line-color;
+    }
+    
+}
+
+.sticky {
+    background-color: $sticky-background-color;
+    background-image: none;
+    z-index: 999;
+}
+
+.sticky .nav__brand:hover {
+    color: $footer-text-color;
+    text-decoration: none;
+}
+
+.sticky .nav__link {
+    color: $footer-text-color;
+}
+
+.sticky .nav__link:hover {
+    color: $section-background-color;
+}

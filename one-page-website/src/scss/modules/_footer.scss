@@ -1,0 +1,11 @@
+@use 'colors' as *;
+
+.footer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+
+    a {
+        color: $footer-text-color;
+        text-decoration: none;
+    }
+}

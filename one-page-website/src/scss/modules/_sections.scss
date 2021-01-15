@@ -1,0 +1,15 @@
+@use 'colors' as *;
+
+.section__new {
+    background: url('../img/bg-pattern.png'), $section-new-color1;
+    background: url('../img/bg-pattern.png'), linear-gradient(to right, $section-new-color2, $section-new-color1);
+    color: #ffffff;
+    padding: 9.5rem 0 6.25rem 0;
+    width: 100%;
+}
+
+.section__social, 
+.section__discover {
+    background-color: $section-background-color;
+}
+
