@@ -60,6 +60,10 @@
 
 .icon__social {
     text-decoration: none;
+
+    &-notlast {
+        margin-right: -0.8rem;
+    }
 }
 
 .heading__love {

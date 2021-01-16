@@ -279,6 +279,9 @@ body {
 .icon__social {
   text-decoration: none;
 }
+.icon__social-notlast {
+  margin-right: -0.8rem;
+}
 
 .heading__love {
   text-align: center;
