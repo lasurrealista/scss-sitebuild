@@ -87,6 +87,7 @@ body {
   cursor: pointer;
   display: flex;
   flex-wrap: wrap;
+  margin-right: 0.9rem;
   margin-top: 0.9rem;
   height: 1.5rem;
   width: 1.5rem;
