@@ -1,0 +1,22 @@
+@use 'colors'as *;
+
+.tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip .tooltiptext {
+    border-radius: 5px;
+    background-color: $footer-background-color;
+    color: $primary-color;
+    text-align: center;
+    padding: 3px 0;
+    position: absolute;
+    visibility: hidden;
+    width: 80px;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

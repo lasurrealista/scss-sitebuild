@@ -2,12 +2,12 @@
     $postfixes: var(column-postfix);
     $grid-size: var(grid-size);
 
-    @each $name, $postfix in $postfixes {
+    @each $name,
+    $postfix in $postfixes {
         @for $i from 1 through $grid-size {
-            .#{var(column-classname)}-#{$postfix}-#{$i} {
-               @include set-column-width($postfix, $i);
+            .#{var(column-classname)}--#{$postfix}-#{$i} {
+                @include set-column-width($postfix, $i);
             }
         }
     }
 }
-

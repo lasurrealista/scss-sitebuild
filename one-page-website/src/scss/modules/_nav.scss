@@ -1,9 +1,13 @@
-@use 'colors' as *;
+@use 'colors'as *;
 
 .nav {
     background: url('../img/bg-pattern.png'), $section-new-color1;
     background: url('../img/bg-pattern.png'), linear-gradient(to right, $section-new-color2, $section-new-color1);
     display: flex;
+    padding: 0.5 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
     &__container {
         align-items: flex-start;
@@ -57,11 +61,11 @@
 
         &-checkbox {
             display: none;
-          }
+        }
 
-        &-checkbox:checked + .nav__list {
+        &-checkbox:checked+.nav__list {
             display: flex;
-          }
+        }
 
         &-label {
             align-items: center;
@@ -105,7 +109,7 @@
     &__hamburger-line {
         color: $nav-line-color;
     }
-    
+
 }
 
 .sticky {

@@ -1,3 +1,5 @@
+'use strict';
+
 const modal = document.querySelector('.modal');
 
 const modalPrivacy = document.querySelector('.modal-privacy');
