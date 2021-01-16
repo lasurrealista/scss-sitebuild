@@ -24,6 +24,7 @@ p,
 
 body {
   height: 100%;
+  margin: 0;
   width: 100%;
 }
 
@@ -78,9 +79,6 @@ body {
 .nav__hamburger-checkbox:checked + .nav__list {
   display: flex;
 }
-.nav__hamburger-checkbox {
-  display: none;
-}
 .nav__hamburger-checkbox:checked + .nav__list {
   display: flex;
 }
@@ -89,8 +87,8 @@ body {
   cursor: pointer;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0.9rem;
   height: 1.5rem;
-  padding: 1rem;
   width: 1.5rem;
 }
 @media screen and (min-width: 992px) {
@@ -118,9 +116,6 @@ body {
 .nav__brand:hover {
   color: #fff;
   text-decoration: none;
-}
-.nav__hamburger-line {
-  color: #b8c0c7;
 }
 
 .sticky {
