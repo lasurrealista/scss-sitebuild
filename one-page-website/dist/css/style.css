@@ -283,11 +283,6 @@ body {
   margin-right: -0.8rem;
 }
 
-.heading__love {
-  text-align: center;
-  white-space: nowrap;
-}
-
 .heading__discover,
 .p__discover {
   margin-bottom: 1rem;
@@ -295,7 +290,7 @@ body {
 }
 
 .stores {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .link__store {
@@ -305,7 +300,7 @@ body {
 }
 
 .link__store img {
-  height: 40px;
+  height: 60px;
 }
 
 @media (min-width: 992px) {
@@ -326,10 +321,6 @@ body {
     padding-right: 3rem;
   }
 }
-.heading__stop {
-  font-weight: 100;
-}
-
 .section__stop {
   background-image: url("../img/bg-cta.jpg");
   background-position: center;
@@ -354,6 +345,119 @@ body {
   padding-top: 9rem;
   position: relative;
   z-index: 1;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.heading__new {
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 2.8rem;
+  margin-bottom: 2.6rem;
+  margin-top: 0;
+  text-align: left;
+  padding-left: 6rem;
+}
+.heading__love, .heading__discover {
+  font-weight: 300;
+}
+.heading__love {
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+.heading__discover, .heading__unlimited {
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 2.5rem;
+}
+.heading__stop {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.heading__unlimited {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.container__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.span__start {
+  display: block;
+  line-height: 2rem;
+}
+
+.heading__new-content {
+  margin: 0;
+}
+
+.button__main-new {
+  margin-left: 6rem;
+}
+
+.container__phone {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.phone {
+  left: 4rem;
+  position: absolute;
+  top: 2rem;
+  width: 16rem;
+}
+
+.screen {
+  border-radius: 5px;
+  left: 5rem;
+  position: absolute;
+  top: 5.5rem;
+  width: 14rem;
+  z-index: 2;
+}
+
+.section__unlimited {
+  padding: 4rem;
+}
+
+.features {
+  padding-bottom: 2rem;
+  padding-top: 0rem;
+}
+
+.one-feature {
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.emoji {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.container__unlimited {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.p__unlimited {
+  text-align: center;
+}
+
+.heading__features {
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
 }
 
 .footer {
