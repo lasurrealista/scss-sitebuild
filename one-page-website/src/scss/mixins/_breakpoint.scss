@@ -1,5 +1,73 @@
 @mixin mobile-up {
     @media only screen and (min-width: var(grid-breakpoint-custom)) {
         @content;
-    };
+
+        .section {
+
+            &__new {
+                text-align: left;
+            }
+
+            &__unlimited {
+                padding: 4rem 0 4rem 4rem;
+            }
+
+            &__stop {
+                padding-left: 6rem;
+                padding-right: 3rem;
+            }
+
+        }
+
+        .button__main-new {
+            margin-left: 8rem;
+        }
+
+        .heading {
+
+            &__new-content {
+                margin-top: 9rem;
+            }
+
+            &__new {
+                padding-left: 8rem;
+                text-align: left;
+            }
+        }
+
+        .stores {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .link__store {
+            display: inline-block;
+            margin-right: 5px;
+            text-align: center;
+        }
+
+        .one-feature {
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .container {
+
+            &__unlimited {
+                padding-bottom: 3rem;
+            }
+
+            &__phone2 {
+                box-sizing: border-box;
+                margin-top: 4rem;
+                margin-bottom: -5rem;
+            }
+        }
+
+        .emoji1 {
+            font-size: 3rem;
+            margin-top: 0rem;
+        }
+    }
 };
