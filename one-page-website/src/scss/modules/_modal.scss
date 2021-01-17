@@ -1,4 +1,4 @@
-@use 'colors' as *;
+@use 'colors'as *;
 
 .modal {
     background-color: $modal-overlay-color;
@@ -44,21 +44,21 @@
         transform: translate(-50%, -50%);
 
         @media only screen and (min-width: 992px) {
-               width: 50%;
+            width: 50%;
         }
-        
+
         @media only screen and (max-width: 992px) {
-               width: 75%;
-        }   
+            width: 75%;
+        }
     }
 
     &__close-privacy,
     &__close-terms,
     &__close-faq {
-    background-color: transparent;
-    border: 1px none;
-    float: right;
-    font-size: 1rem;
+        background-color: transparent;
+        border: 1px none;
+        float: right;
+        font-size: 1rem;
     }
 
     &__btn-green {
@@ -70,7 +70,7 @@
         margin-right: 0.4rem;
         padding: 0.40rem 1rem;
     }
-    
+
     &__btn-red {
         background-color: $modal-red-button;
         border: 1px none;
@@ -79,7 +79,7 @@
         color: $modal-text-color;
         padding: 0.4rem 1rem;
     }
-    
+
     &__footer-btn {
         bottom: 0;
         display: flex;
@@ -89,4 +89,3 @@
         padding: 1rem 0;
     }
 }
-

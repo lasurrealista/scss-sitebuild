@@ -367,10 +367,15 @@ body {
   justify-content: center;
   text-align: center;
 }
-.container__phone {
-  margin: 2rem auto;
+.container__phone, .container__phone2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   position: relative;
   height: 580px;
+}
+.container__phone {
+  margin: 2rem auto 0 auto;
 }
 
 h1 {
@@ -385,15 +390,14 @@ h1 {
 .phone {
   position: absolute;
   top: 2rem;
-  width: 16rem;
+  width: 235px;
 }
 
 .screen {
   border-radius: 5px;
-  margin-left: 1rem;
   position: absolute;
-  top: 5.5rem;
-  width: 14rem;
+  top: 4.9rem;
+  width: 210px;
   z-index: 2;
 }
 
@@ -402,12 +406,14 @@ h1 {
   padding-top: 0rem;
 }
 
-.emoji {
+.emoji1,
+.emoji2 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .p__unlimited {
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -428,16 +434,19 @@ h1 {
   .section__new {
     text-align: left;
   }
+  .section__unlimited {
+    padding: 4rem 0 4rem 4rem;
+  }
 
   .button__main-new {
-    margin-left: 6rem;
+    margin-left: 8rem;
   }
 
   .heading__new-content {
     margin-top: 9rem;
   }
-
   .heading__new {
+    padding-left: 8rem;
     text-align: left;
   }
 
@@ -459,10 +468,28 @@ h1 {
   }
 
   .one-feature {
-    padding-bottom: 0;
+    padding: 0 2rem;
     text-align: center;
   }
+
+  .container__unlimited {
+    padding-bottom: 3rem;
+  }
+  .container__phone2 {
+    box-sizing: border-box;
+    margin-top: 4rem;
+    margin-bottom: -5rem;
+  }
+
+  .emoji1 {
+    font-size: 3rem;
+    margin-top: 0rem;
+  }
 }
+hr {
+  width: 50%;
+}
+
 .footer {
   background-color: #343a40;
   color: #6c757d;
