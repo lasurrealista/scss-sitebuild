@@ -24,9 +24,13 @@
     }
 
     &__visible {
+        align-items: center;
+        display: flex;
+        justify-content: center;
         opacity: 1;
         transition: opacity 0.3s;
         visibility: visible;
+        z-index: 999;
     }
 
     &__content {
@@ -35,13 +39,10 @@
         border-color: $modal-border-color;
         border-radius: 5px;
         box-sizing: border-box;
-        left: 50%;
         margin: 1% auto;
         padding: 1.1rem;
         position: absolute;
         animation: fadein .3s;
-        top: 50%;
-        transform: translate(-50%, -50%);
 
         @media only screen and (min-width: 992px) {
             width: 50%;

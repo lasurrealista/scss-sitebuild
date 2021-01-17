@@ -161,9 +161,13 @@ body {
   padding: 0.4rem 1rem;
 }
 .modal__visible {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   opacity: 1;
   transition: opacity 0.3s;
   visibility: visible;
+  z-index: 999;
 }
 .modal__content {
   background-color: #fff;
@@ -171,13 +175,10 @@ body {
   border-color: #777676;
   border-radius: 5px;
   box-sizing: border-box;
-  left: 50%;
   margin: 1% auto;
   padding: 1.1rem;
   position: absolute;
   animation: fadein 0.3s;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 @media only screen and (min-width: 992px) {
   .modal__content {
@@ -437,6 +438,10 @@ h1 {
   .section__unlimited {
     padding: 4rem 0 4rem 4rem;
   }
+  .section__stop {
+    padding-left: 6rem;
+    padding-right: 3rem;
+  }
 
   .button__main-new {
     margin-left: 8rem;
@@ -460,11 +465,6 @@ h1 {
     display: inline-block;
     margin-right: 5px;
     text-align: center;
-  }
-
-  .section__stop {
-    padding-left: 6rem;
-    padding-right: 3rem;
   }
 
   .one-feature {

@@ -252,6 +252,12 @@ h1 {
         &__unlimited {
             padding: 4rem 0 4rem 4rem;
         }
+
+        &__stop {
+            padding-left: 6rem;
+            padding-right: 3rem;
+        }
+
     }
 
     .button__main-new {
@@ -280,11 +286,6 @@ h1 {
         display: inline-block;
         margin-right: 5px;
         text-align: center;
-    }
-
-    .section__stop {
-        padding-left: 6rem;
-        padding-right: 3rem;
     }
 
     .one-feature {
